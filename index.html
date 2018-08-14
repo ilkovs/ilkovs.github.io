@@ -15,7 +15,6 @@
   <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
 
 
-
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
     type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
@@ -82,13 +81,15 @@
           <p>
             <i>A little bit more about me:</i>
           </p>
-          <p>I'm 27 years old, originally from Bulgaria, moved to the States almost two years ago. I love travelling and spending time with my family.
+          <p>I'm 27 years old, originally from Bulgaria, moved to the States almost two years ago. I love travelling and spending
+            time with my family.
           </p>
           <p>Web Development has always been a passion! My enrollment in Georgia Institute of Technology Coding Boot Camp is
             the best investment I have ever made in my life. I was able to meet so many talanted people, who share the same
             mission in life- to become Web Developers.</p>
           <p>For the last couple of months programming has become huge part of my life, being able to code in a professional
-            environment, where I'll have the opportunity to gain more knowledge, contribute and build web applications is my ultimate goal.</p>
+            environment, where I'll have the opportunity to gain more knowledge, contribute and build web applications is
+            my ultimate goal.</p>
           <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">My Competencies</a>
         </div>
       </div>
@@ -212,8 +213,9 @@
           <a class="portfolio-item" href="https://github.com/ilkovs/liri-node-app">
             <span class="caption">
               <span class="caption-content">
-                <h2>Liri Node App</h2> 
-                <p class="mb-0">LIRI is a Language Interpretation and Recognition Interface. Use LIRI to get your latest tweets, find out about a song, or a movie, or just choose a random action from your own random file!</p>
+                <h2>Liri Node App</h2>
+                <p class="mb-0">LIRI is a Language Interpretation and Recognition Interface. Use LIRI to get your latest tweets, find out
+                  about a song, or a movie, or just choose a random action from your own random file!</p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-7.png" alt="TrainScheduler">
@@ -224,7 +226,8 @@
             <span class="caption">
               <span class="caption-content">
                 <h2>Bamazon</h2>
-                <p class="mb-0">This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package. The application presents customer interface!</p>
+                <p class="mb-0">This application implements a simple command line based storefront using the npm inquirer package and the
+                  MySQL database backend together with the npm mysql package. The application presents customer interface!</p>
               </span>
             </span>
             <img class="img-fluid" src="img/portfolio-8.jpg" alt="TrainScheduler">
@@ -245,38 +248,43 @@
 
   <section id="contact">
     <div class="section-content">
-      <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with me</span></h1>
+      <h1 class="section-header">Get in
+        <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with me</span>
+      </h1>
     </div>
     <div class="contact-section-center">
-    <div class="container">
-      <center><form>
-        <div class="col-md-6">
-            <div class="form-group">
-              <label for="exampleInputUsername">Your name</label>
-              <input type="text" class="form-control" id="" placeholder=" Enter Name">
+      <div class="container">
+        <center>
+          <form>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="exampleInputUsername">Your name</label>
+                <input type="text" class="form-control" id="name" placeholder=" Enter Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email">
+              </div>
+              <div class="form-group">
+                <label for="telephone">Mobile No.</label>
+                <input type="tel" class="form-control" id="telephone" placeholder=" Enter Phone Number">
+              </div>
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail">Email Address</label>
-              <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email">
-            </div>	
-            <div class="form-group">
-              <label for="telephone">Mobile No.</label>
-              <input type="tel" class="form-control" id="telephone" placeholder=" Enter Phone Number">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <label for ="description"> Message</label>
-               <textarea  class="form-control" id="description" placeholder="Enter Message"></textarea>
-            </div>
-            <div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="description"> Message</label>
+                <textarea class="form-control" id="description" placeholder="Enter Message"></textarea>
+              </div>
+              <div>
 
-              <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                <button type="button" class="btn btn-default submit" id="submit">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+              </div>
+
             </div>
-            
-        </div>
-      </form></center>
-    </div>
+          </form>
+        </center>
+      </div>
   </section>
 
   <footer class="footer text-center">
@@ -307,12 +315,17 @@
   </a>
 
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+  <script src="js/contact.js"></script>
   <script src="js/stylish-portfolio.min.js"></script>
-  
+
 
 </body>
 
