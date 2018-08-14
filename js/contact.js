@@ -12,6 +12,7 @@ firebase.initializeApp(config);
 
 var database = firebase.database(); 
 
+
 $("#submit").on("click", function (event) {
 
     event.preventDefault();
@@ -21,7 +22,7 @@ $("#submit").on("click", function (event) {
     var contactMessage = $("#description").val().trim();
 
 
-    swal("Thank you! I'll get back with you shortly!", "success");
+    swal("Thank you!", "I'll get back with you shortly!", "success");
 
 
     var newContact = {
