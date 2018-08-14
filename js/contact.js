@@ -1,4 +1,3 @@
-
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyB6jU19gZD8jTOSPfATmkpw7YPbJAFyyGM",
@@ -22,7 +21,8 @@ $("#submit").on("click", function (event) {
     var contactMessage = $("#description").val().trim();
 
 
-    alert("Thank you for getting in touch! I'll get back with you shortly.");
+    swal("Thank you! I'll get back with you shortly!", "success");
+
 
     var newContact = {
         name: contactName,
@@ -38,4 +38,7 @@ $("#submit").on("click", function (event) {
     $("#description").val("");
 
 });
+
+
+
 
