@@ -42,3 +42,15 @@
 
 })(jQuery); // End of use strict
 
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: ["Samuil Ilkov.", "Web Developer.", "Marketer.", "Creator."],
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
