@@ -40,6 +40,22 @@ $("#submit").on("click", function (event) {
 
 });
 
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+
+  var typed = $(".typed");
+
+  $(function() {
+    typed.typed({
+      strings: ["Samuil Ilkov.", "Jr Web Developer.", "Marketer.", "Creator."],
+      typeSpeed: 200,
+      loop: true,
+    });
+  });
+
+  
+
 
 
 
