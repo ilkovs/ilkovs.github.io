@@ -48,7 +48,7 @@ $("#submit").on("click", function (event) {
 
   $(function() {
     typed.typed({
-      strings: ["Samuil Ilkov.", "Jr Web Developer.", "Marketer.", "Creator."],
+      strings: ["Samuil Ilkov.", "Web Developer.", "Marketer.", "Creator."],
       typeSpeed: 200,
       loop: true,
     });
