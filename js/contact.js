@@ -54,6 +54,9 @@ $("#submit").on("click", function (event) {
     });
   });
 
+  // Changing the backgrounds
+
+
   
 
 
